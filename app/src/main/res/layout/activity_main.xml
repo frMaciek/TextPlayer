@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.android.textplayer.MainActivity">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dark_bg" />
+
+    <TextView
+        android:id="@+id/main_text"
+        style="@style/play_text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_button" />
+
+    <TextView
+        android:id="@+id/rewind_button"
+        style="@style/rewind_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rewind_button" />
+
+    <TextView
+        android:id="@+id/forward_button"
+        style="@style/forward_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forward_button" />
+
+    <TextView
+        android:id="@+id/settings"
+        style="@style/settings_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_button" />
+
+    <TextView
+        android:id="@+id/playlist"
+        style="@style/playlist_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/playlist_button" />
+
+    <TextView
+        android:id="@+id/equalizer"
+        style="@style/Equalizer_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/equalize_button" />
+
+    <TextView
+        android:id="@+id/stream"
+        style="@style/Stream_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stream_button" />
+
+    <TextView
+        android:id="@+id/motto"
+        style="@style/motto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/motto" />
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        style="@style/SeekBar_style" />
+
+    <TextView
+        android:id="@+id/song_title"
+        style="@style/song_title_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_song_title" />
+
+    <TextView
+        android:id="@+id/song_artist"
+        style="@style/song_artist_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_artist_name" />
+
+
+</android.support.constraint.ConstraintLayout>
