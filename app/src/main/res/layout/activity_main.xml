@@ -11,51 +11,54 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
-        android:src="@drawable/dark_bg" />
+        android:src="@drawable/dark_bg"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
-    <TextView
+    <Button
         android:id="@+id/main_text"
         style="@style/play_text_style"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/play_button" />
+        android:text="@string/play_button"
+        android:textAllCaps="false" />
 
-    <TextView
+    <Button
         android:id="@+id/rewind_button"
         style="@style/rewind_style"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/rewind_button" />
 
-    <TextView
+    <Button
         android:id="@+id/forward_button"
         style="@style/forward_style"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/forward_button" />
 
-    <TextView
+    <Button
         android:id="@+id/settings"
         style="@style/settings_style"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/settings_button" />
 
-    <TextView
+    <Button
         android:id="@+id/playlist"
         style="@style/playlist_style"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/playlist_button" />
 
-    <TextView
+    <Button
         android:id="@+id/equalizer"
         style="@style/Equalizer_style"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/equalize_button" />
 
-    <TextView
+    <Button
         android:id="@+id/stream"
         style="@style/Stream_style"
         android:layout_width="wrap_content"
@@ -73,19 +76,6 @@
         android:id="@+id/seekbar"
         style="@style/SeekBar_style" />
 
-    <TextView
-        android:id="@+id/song_title"
-        style="@style/song_title_style"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/description_song_title" />
-
-    <TextView
-        android:id="@+id/song_artist"
-        style="@style/song_artist_style"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/description_artist_name" />
 
 
 </android.support.constraint.ConstraintLayout>

@@ -13,7 +13,7 @@
         android:scaleType="centerCrop"
         android:src="@drawable/dark_bg" />
 
-    <TextView
+    <Button
         android:id="@+id/reverse"
         style="@style/back_to_main_text"
         android:layout_width="wrap_content"
@@ -27,25 +27,60 @@
         android:layout_height="wrap_content"
         android:text="@string/description_stream" />
 
-    <TextView
+    <Button
         android:id="@+id/st_lower_left_button"
         style="@style/lower_left_button"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="20dp"
         android:text="@string/playlist_button" />
 
-    <TextView
+    <Button
         android:id="@+id/st_lower_right_button"
         style="@style/lower_right_button"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="20dp"
         android:text="@string/equalize_button" />
 
+    <TextView
+        android:id="@+id/broadcast_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_description"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:text="@string/stream_source"
+        android:textColor="@color/secondary_text" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/broadcast_description"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="10dip"
+        android:indeterminateDrawable="@android:drawable/progress_indeterminate_horizontal"
+        android:indeterminateOnly="false"
+        android:maxHeight="20dip"
+        android:minHeight="20dip"></ProgressBar>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressBar1"
+        android:layout_marginTop="20dip"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonPlay"
+            style="@style/buttonPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"></Button>
+
+        <Button
+            android:id="@+id/buttonStopPlay"
+            style="@style/buttonStopPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop"></Button>
+    </LinearLayout>
 
 </RelativeLayout>

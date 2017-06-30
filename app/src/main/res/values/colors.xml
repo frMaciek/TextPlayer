@@ -8,5 +8,7 @@
     <color name="main_text">#a9a9a9</color>
     <color name="secondary_text">#4d4d4d</color>
     <color name="motto_color">#1a1a1a</color>
+    <color name="button_background">#224d4d4d</color>
+
 
 </resources>

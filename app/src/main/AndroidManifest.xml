@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.textplayer">
 
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -27,10 +34,16 @@
         <activity
             android:name=".playlist"
             android:label="@string/playlist" />
-        <activity android:name=".stream"
+        <activity
+            android:name=".stream"
             android:label="@string/stream" />
-        <activity android:name=".equalizer"
-            android:label="@string/equalizer"></activity>
+        <activity
+            android:name=".equalizer"
+            android:label="@string/equalizer" />
+
+        <activity
+            android:name=".mySettingsActivity"
+            android:label="@string/settings" />
     </application>
 
 </manifest>

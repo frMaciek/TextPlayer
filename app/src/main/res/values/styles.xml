@@ -12,12 +12,14 @@
 
     <style name="play_text_style">
         <item name="android:textColor">@color/main_text</item>
-        <item name="android:textSize">28sp</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@color/button_background</item>
         <item name="layout_constraintBottom_toBottomOf">parent</item>
         <item name="layout_constraintHorizontal_bias">0.501</item>
         <item name="layout_constraintLeft_toLeftOf">parent</item>
-        <item name="android:padding">8dp</item>
+        <item name="android:padding">2dp</item>
         <item name="layout_constraintRight_toRightOf">parent</item>
         <item name="layout_constraintTop_toTopOf">parent</item>
         <item name="layout_constraintVertical_bias">0.478</item>
@@ -25,11 +27,14 @@
 
     <style name="rewind_style">
         <item name="android:textColor">@drawable/button_text_color</item>
-        <item name="android:textSize">24sp</item>
+        <item name="android:textSize">22sp</item>
         <item name="layout_constraintBottom_toBottomOf">parent</item>
         <item name="layout_constraintHorizontal_bias">0.4</item>
         <item name="layout_constraintLeft_toLeftOf">parent</item>
-        <item name="android:padding">8dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:background">@color/button_background</item>
+        <item name="android:padding">2dp</item>
         <item name="layout_constraintRight_toRightOf">@+id/main_text</item>
         <item name="layout_constraintTop_toTopOf">parent</item>
         <item name="layout_constraintVertical_bias">0.603</item>
@@ -37,10 +42,13 @@
 
     <style name="forward_style">
         <item name="android:textColor">@drawable/button_text_color</item>
-        <item name="android:textSize">24sp</item>
+        <item name="android:textSize">22sp</item>
         <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:background">@color/button_background</item>
         <item name="layout_constraintHorizontal_bias">0.78</item>
-        <item name="android:padding">8dp</item>
+        <item name="android:padding">2dp</item>
         <item name="layout_constraintLeft_toLeftOf">@+id/main_text</item>
         <item name="layout_constraintRight_toRightOf">parent</item>
         <item name="layout_constraintTop_toTopOf">parent</item>
@@ -48,23 +56,29 @@
     </style>
 
     <style name="Stream_style">
-        <item name="android:textColor">@color/secondary_text</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:background">@color/button_background</item>
         <item name="layout_constraintBottom_toBottomOf">@+id/main_text</item>
         <item name="layout_constraintHorizontal_bias">0.375</item>
         <item name="layout_constraintLeft_toLeftOf">parent</item>
-        <item name="android:padding">8dp</item>
+        <item name="android:padding">2dp</item>
         <item name="layout_constraintRight_toRightOf">@+id/main_text</item>
         <item name="layout_constraintTop_toTopOf">parent</item>
         <item name="layout_constraintVertical_bias">0.659</item>
     </style>
 
     <style name="Equalizer_style">
-        <item name="android:textColor">@color/secondary_text</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:background">@color/button_background</item>
         <item name="layout_constraintBottom_toBottomOf">@+id/main_text</item>
         <item name="layout_constraintHorizontal_bias">0.123</item>
-        <item name="android:padding">8dp</item>
+        <item name="android:padding">2dp</item>
         <item name="layout_constraintLeft_toLeftOf">@+id/main_text</item>
         <item name="layout_constraintRight_toRightOf">parent</item>
         <item name="layout_constraintTop_toTopOf">parent</item>
@@ -72,23 +86,29 @@
     </style>
 
     <style name="playlist_style">
-        <item name="android:textColor">@color/secondary_text</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:background">@color/button_background</item>
         <item name="layout_constraintBottom_toBottomOf">parent</item>
         <item name="layout_constraintHorizontal_bias">0.875</item>
         <item name="layout_constraintLeft_toLeftOf">parent</item>
-        <item name="android:padding">8dp</item>
+        <item name="android:padding">2dp</item>
         <item name="layout_constraintRight_toRightOf">@+id/main_text</item>
         <item name="layout_constraintTop_toTopOf">@+id/main_text</item>
         <item name="layout_constraintVertical_bias">0.463</item>
     </style>
 
     <style name="settings_style">
-        <item name="android:textColor">@color/secondary_text</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:textSize">18sp</item>
         <item name="layout_constraintBottom_toBottomOf">parent</item>
         <item name="layout_constraintHorizontal_bias">0.714</item>
-        <item name="android:padding">8dp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@color/button_background</item>
+        <item name="android:padding">2dp</item>
         <item name="layout_constraintLeft_toLeftOf">@+id/main_text</item>
         <item name="layout_constraintRight_toRightOf">parent</item>
         <item name="layout_constraintTop_toTopOf">@+id/main_text</item>
@@ -97,17 +117,21 @@
 
     <style name="SeekBar_style">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_height">48dp</item>
         <item name="android:layout_margin">20dp</item>
+        <item name="android:layout_marginTop">8dp</item>
         <item name="layout_editor_absoluteY">1dp</item>
         <item name="layout_editor_absoluteX">52dp</item>
+        <item name="android:layout_alignParentTop">true</item>
     </style>
 
     <style name="back_to_main_text">
         <item name="android:textColor">@drawable/button_text_color</item>
-        <item name="android:textSize">18sp</item>
-        <item name="android:padding">8dp</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:background">@color/button_background</item>
         <item name="android:layout_margin">25dp</item>
     </style>
 
@@ -124,22 +148,26 @@
 
     <style name="song_title_style">
         <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">30dp</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:layout_below">@+id/seekbar</item>
         <item name="android:layout_margin">30dp</item>
-        <item name="layout_editor_absoluteY">38dp</item>
-        <item name="layout_editor_absoluteX">27dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="layout_editor_absoluteY">37dp</item>
+        <item name="layout_editor_absoluteX">16dp</item>
     </style>
 
     <style name="song_artist_style">
         <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">20dp</item>
         <item name="android:textSize">14sp</item>
         <item name="android:textStyle">italic</item>
-        <item name="android:layout_below">@+id/song_title</item>
         <item name="android:layout_margin">30dp</item>
-        <item name="layout_editor_absoluteY">65dp</item>
-        <item name="layout_editor_absoluteX">27dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="layout_editor_absoluteY">58dp</item>
+        <item name="layout_editor_absoluteX">26dp</item>
     </style>
 
     <style name="song_title_playlist_style">
@@ -185,24 +213,54 @@
 
     <style name="lower_left_button">
         <item name="android:textColor">@drawable/button_text_color</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">12sp</item>
         <item name="android:textStyle">italic</item>
-        <item name="android:padding">8dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:background">@color/button_background</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginBottom">20dp</item>
         <item name="android:layout_marginTop">5dp</item>
-        <item name="android:layout_marginBottom">5dp</item>
         <item name="android:layout_marginLeft">30dp</item>
         <item name="android:layout_marginRight">20dp</item>
     </style>
 
     <style name="lower_right_button">
         <item name="android:textColor">@drawable/button_text_color</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:background">@color/button_background</item>
+        <item name="android:textSize">12sp</item>
         <item name="android:textStyle">italic</item>
-        <item name="android:padding">8dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginBottom">20dp</item>
         <item name="android:layout_marginTop">5dp</item>
-        <item name="android:layout_marginBottom">5dp</item>
         <item name="android:layout_marginRight">20dp</item>
         <item name="android:layout_marginLeft">30dp</item>
+    </style>
+    <!-- Stream function buttons styling -->
+    <style name="buttonPlay">
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:background">@color/button_background</item>
+    </style>
+
+    <style name="buttonStopPlay">
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:background">@color/button_background</item>
     </style>
 
 </resources>

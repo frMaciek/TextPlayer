@@ -18,7 +18,7 @@
             android:scaleType="centerCrop"
             android:src="@drawable/dark_bg" />
 
-        <TextView
+        <Button
             android:id="@+id/reverse"
             style="@style/back_to_main_text"
             android:layout_width="wrap_content"
@@ -40,7 +40,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="2dp"
                 android:orientation="vertical">
 
                 <View
@@ -49,14 +49,14 @@
                     android:layout_height="2dp"></View>
 
                 <TextView
-                    android:id="@+id/song_title"
+                    android:id="@+id/song_title1"
                     style="@style/song_title_playlist_style"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/description_song_title" />
 
                 <TextView
-                    android:id="@+id/song_artist"
+                    android:id="@+id/song_artist1"
                     style="@style/song_artist_playlist_style"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -69,14 +69,14 @@
 
 
                 <TextView
-                    android:id="@+id/song_title"
+                    android:id="@+id/song_title2"
                     style="@style/song_title_playlist_style"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/description_song_title" />
 
                 <TextView
-                    android:id="@+id/song_artist"
+                    android:id="@+id/song_artist2"
                     style="@style/song_artist_playlist_style"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -88,14 +88,14 @@
                     android:layout_height="2dp"></View>
 
                 <TextView
-                    android:id="@+id/song_title"
+                    android:id="@+id/song_title3"
                     style="@style/song_title_playlist_style"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/description_song_title" />
 
                 <TextView
-                    android:id="@+id/song_artist"
+                    android:id="@+id/song_artist3"
                     style="@style/song_artist_playlist_style"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -107,14 +107,14 @@
                     android:layout_height="2dp"></View>
 
                 <TextView
-                    android:id="@+id/song_title"
+                    android:id="@+id/song_title4"
                     style="@style/song_title_playlist_style"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/description_song_title" />
 
                 <TextView
-                    android:id="@+id/song_artist"
+                    android:id="@+id/song_artist4"
                     style="@style/song_artist_playlist_style"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -126,14 +126,14 @@
                     android:layout_height="2dp"></View>
 
                 <TextView
-                    android:id="@+id/song_title"
+                    android:id="@+id/song_title5"
                     style="@style/song_title_playlist_style"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/description_song_title" />
 
                 <TextView
-                    android:id="@+id/song_artist"
+                    android:id="@+id/song_artist5"
                     style="@style/song_artist_playlist_style"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -166,24 +166,14 @@
 
         </ScrollView>
 
-        <TextView
+        <Button
             android:id="@+id/pl_lower_left_button"
             style="@style/lower_left_button"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_marginBottom="20dp"
             android:text="@string/equalize_button" />
 
-        <TextView
+        <Button
             android:id="@+id/pl_lower_right_button"
             style="@style/lower_right_button"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginBottom="20dp"
             android:text="@string/stream_button" />
     </RelativeLayout>
 

@@ -6,21 +6,24 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class playlist extends AppCompatActivity {
+public class mySettingsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_playlist);
+        setContentView(R.layout.activity_my_settings);
+
 
         //Find the view that shows the colors category
         Button reverse = (Button) findViewById(R.id.reverse);
 
         //set a clickListener on that View
-        reverse.setOnClickListener(new View.OnClickListener() {
+        reverse.setOnClickListener(new View.OnClickListener()
+
+        {
             @Override
             public void onClick(View view) {
-                Intent reverseIntent = new Intent(com.example.android.textplayer.playlist.this, MainActivity.class);
+                Intent reverseIntent = new Intent(com.example.android.textplayer.mySettingsActivity.this, MainActivity.class);
 
                 //start the new activity
                 startActivity(reverseIntent);
@@ -28,27 +31,31 @@ public class playlist extends AppCompatActivity {
         });
 
         //Find the view that shows the proper label
-        Button lowerLeftButton = (Button) findViewById(R.id.pl_lower_left_button);
+        Button lowerLeftButton = (Button) findViewById(R.id.eq_lower_left_button);
 
         //set a clickListener on that View
-        lowerLeftButton.setOnClickListener(new View.OnClickListener() {
+        lowerLeftButton.setOnClickListener(new View.OnClickListener()
+
+        {
             @Override
             public void onClick(View view) {
-                Intent equalizerIntent = new Intent(com.example.android.textplayer.playlist.this, com.example.android.textplayer.equalizer.class);
+                Intent playlistIntent = new Intent(com.example.android.textplayer.mySettingsActivity.this, com.example.android.textplayer.playlist.class);
 
                 //start the new activity
-                startActivity(equalizerIntent);
+                startActivity(playlistIntent);
             }
         });
 
         //Find the view that shows the proper label
-        Button lowerRightButton = (Button) findViewById(R.id.pl_lower_right_button);
+        Button lowerRightButton = (Button) findViewById(R.id.eq_lower_right_button);
 
         //set a clickListener on that View
         lowerRightButton.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
-                Intent streamIntent = new Intent(com.example.android.textplayer.playlist.this, com.example.android.textplayer.stream.class);
+                Intent streamIntent = new Intent(com.example.android.textplayer.mySettingsActivity.this, com.example.android.textplayer.stream.class);
+
 
                 //start the new activity
                 startActivity(streamIntent);

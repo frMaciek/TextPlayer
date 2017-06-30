@@ -5,6 +5,7 @@
     <string name="playlist">playlist</string>
     <string name="stream">stream</string>
     <string name="equalizer">equalizer</string>
+    <string name="settings">settings</string>
 
     <!-- Strings related to Settings -->
 
@@ -92,10 +93,12 @@
     <string name="turn_back">back to main screen</string>
 
     <!-- activity descriptions -->
+    <string name="stream_source">Source: WFFR 100.9 FM Roosevelt Park, MI</string>
     <string name="description_song_title">Song title</string>
     <string name="description_artist_name">Artist name</string>
+    <string name="description_my_settings">This is activity where user will be able to customize setting to their own preferences</string>
     <string name="description_playlist">In this activity, user will be able to preview the playlist, as well as choose another song from the list</string>
     <string name="description_equalizer">In this activity, user will be able to adjust sound to match their own preferences. This feature will be implemented with Equalizer class</string>
-    <string name="description_stream">In this activity, user will be able to launch a audio stream</string>
+    <string name="description_stream">In this activity, user will be able to launch an audio stream. For demonstration purposes of streaming playback capabilities, link to the audio stream was hard-coded. </string>
 
 </resources>

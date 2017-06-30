@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -16,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         // setting proper TextView as release for toast message
-        final TextView forward = (TextView) findViewById(R.id.forward_button);
+        final Button forward = (Button) findViewById(R.id.forward_button);
 
         forward.setOnClickListener(new View.OnClickListener() {
 
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        final TextView rewind = (TextView) findViewById(R.id.rewind_button);
+        final Button rewind = (Button) findViewById(R.id.rewind_button);
 
         rewind.setOnClickListener(new View.OnClickListener() {
 
@@ -38,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        final TextView play = (TextView) findViewById(R.id.main_text);
+        final Button play = (Button) findViewById(R.id.main_text);
 
         play.setOnClickListener(new View.OnClickListener() {
 
@@ -53,13 +54,13 @@ public class MainActivity extends AppCompatActivity {
         // Set the content of the activity to use the activity_main.xml layout file
 
         //Find the view that shows the colors category
-        TextView settings = (TextView) findViewById(R.id.settings);
+        Button settings = (Button) findViewById(R.id.settings);
 
         //set a clickListener on that View
         settings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent settingsIntent = new Intent(MainActivity.this, SettingsActivity.class);
+                Intent settingsIntent = new Intent(MainActivity.this, mySettingsActivity.class);
 
                 //start the new activity
                 startActivity(settingsIntent);
@@ -67,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Find the view that shows the colors category
-        TextView playlist = (TextView) findViewById(R.id.playlist);
+        Button playlist = (Button) findViewById(R.id.playlist);
 
         //set a clickListener on that View
         playlist.setOnClickListener(new View.OnClickListener() {
@@ -81,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Find the view that shows the colors category
-        final TextView equalizer = (TextView) findViewById(R.id.equalizer);
+        final Button equalizer = (Button) findViewById(R.id.equalizer);
 
         //set a clickListener on that View
         equalizer.setOnClickListener(new View.OnClickListener() {
@@ -95,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Find the view that shows the colors category
-        TextView stream = (TextView) findViewById(R.id.stream);
+        Button stream = (Button) findViewById(R.id.stream);
 
         //set a clickListener on that View
         stream.setOnClickListener(new View.OnClickListener() {

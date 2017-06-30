@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.TextView;
+import android.widget.Button;
 
 public class equalizer extends AppCompatActivity {
 
@@ -14,7 +14,7 @@ public class equalizer extends AppCompatActivity {
         setContentView(R.layout.activity_equalizer);
 
         //Find the view that shows the colors category
-        TextView reverse = (TextView) findViewById(R.id.reverse);
+        Button reverse = (Button) findViewById(R.id.reverse);
 
         //set a clickListener on that View
         reverse.setOnClickListener(new View.OnClickListener() {
@@ -28,7 +28,7 @@ public class equalizer extends AppCompatActivity {
         });
 
         //Find the view that shows the proper label
-        TextView lowerLeftButton = (TextView) findViewById(R.id.eq_lower_left_button);
+        Button lowerLeftButton = (Button) findViewById(R.id.eq_lower_left_button);
 
         //set a clickListener on that View
         lowerLeftButton.setOnClickListener(new View.OnClickListener() {
@@ -42,7 +42,7 @@ public class equalizer extends AppCompatActivity {
         });
 
         //Find the view that shows the proper label
-        TextView lowerRightButton = (TextView) findViewById(R.id.eq_lower_right_button);
+        Button lowerRightButton = (Button) findViewById(R.id.eq_lower_right_button);
 
         //set a clickListener on that View
         lowerRightButton.setOnClickListener(new View.OnClickListener() {
